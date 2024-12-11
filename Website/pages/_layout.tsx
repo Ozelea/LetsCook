@@ -119,7 +119,15 @@ const AppRootPage = ({ children }: PropsWithChildren) => {
         <>
             <div className="flex min-h-screen flex-col items-center justify-center bg-gray-900 py-16 text-white">
                 <Navigation />
-
+                <div className="w-full bg-indigo-600 py-6 text-center font-bold text-white">
+                    <p>
+                        Companions and Solar Token going live December 17th on Scope. <br />
+                        Join Discord Now:{" "}
+                        <a href="https://discord.gg/solarstudios" className="text-green-400 underline">
+                            https://discord.gg/solarstudios
+                        </a>
+                    </p>
+                </div>
                 <main className="mx-auto mt-8 grid max-w-6xl space-y-8 px-4 md:grid-cols-2 md:px-0">
                     <div className="relative mx-auto flex max-h-fit max-w-md flex-col items-center justify-center gap-3 rounded-2xl bg-gradient-to-br from-blue-500/10 to-purple-500/10 p-4">
                         <div className="aspect-square w-full">
@@ -200,7 +208,6 @@ const AppRootPage = ({ children }: PropsWithChildren) => {
                         </div>
                     </div>
                 </main>
-
                 <footer className="absolute bottom-6 right-6 mx-auto hidden w-fit md:flex md:flex-col">
                     <p className="mx-auto -mb-[6px] w-fit text-sm text-gray-400">Powered By</p>
                     <Link href={"https://eclipse.letscook.wtf"} target="_blank">
